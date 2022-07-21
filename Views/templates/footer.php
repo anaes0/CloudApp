@@ -20,7 +20,7 @@ footer .environment {
 <footer>
     <div class="environment">
 
-        <p>Page code:<a href="https://github.com/anaes0" target="_blank"> Github repository</a></p>
+        <p>Page code:<a href="https://github.com/anaes0/CloudApp" target="_blank"> Github repository</a></p>
 
         <p>Website made by Ana VG - Student number: x21183091</p>
 
