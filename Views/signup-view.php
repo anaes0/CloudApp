@@ -9,6 +9,10 @@ table {
 h3{
     text-align: center;
 }
+
+.signup-btn{
+    margin:15px;
+}
 </style>
 
 
@@ -39,7 +43,8 @@ h3{
 <?php endforeach; ?>
             
         </table>
-        <button> <a href="/login">Log in</a></button>
+        <br>
+        <button class="signup-btn"> <a href="/login">Log in</a></button>
         
     </body>
 </html>

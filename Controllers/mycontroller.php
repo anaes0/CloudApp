@@ -70,9 +70,6 @@ class mycontroller extends controller
 		echo view('logout');
 		echo view('templates/footer');
     }
-    public function hello(){
-        echo view('hello_world');
-    }
 
     public function bookreserved(){
         echo view('reserve-book-add');

@@ -112,6 +112,7 @@
             width: 8%;
             text-align: center;
             font-size: 15px;
+             margin: 10px;
         }
         section h1 {
             margin-bottom: 2.5rem;
@@ -214,14 +215,15 @@
 
 <section>
     <div class="menu-button">
-        <button><a href="/login">Log in</a></button>
-        <button><a href="/signup">Sign up</a></button>
-        <button class="login-btn"><a href="/logout">Log out</a></button>
         <?php
             if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
                echo "Welcome, " . htmlspecialchars($_SESSION['login_user']) . "!";
+               echo "<button class=\"login-btn\"><a href=\"/logout\">Log out</a></button>";
             } else {
-                echo "Please log in first to see this page.";
+                echo "Please log in ";
+                echo "<button><a href=\"/login\">Log in</a></button>";
+                echo "<button><a href=\"/signup\">Sign up</a></button>";
+                
             }
         ?>
     

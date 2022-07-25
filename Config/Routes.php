@@ -39,21 +39,21 @@ $routes->add('/update/(:num)', 'crud::update/$1');
 $routes->add('/update1', 'crud::update1');
 $routes->add('/delete/(:num)', 'crud::delete/$1');*/
 
-$routes->add('index', 'mycontroller::index');
-$routes->add('session', 'mycontroller::session');
-$routes->add('profile', 'mycontroller::profile');
-$routes->add('logout', 'mycontroller::logout');
+$routes->add('index', 'Mycontroller::index');
+$routes->add('session', 'Mycontroller::session');
+$routes->add('profile', 'Mycontroller::profile');
+$routes->add('logout', 'Mycontroller::logout');
 
 $routes->add('hello_world', 'SiteController::getData');
 //$routes->add('hello_world', 'BookController::getData');
 
 
 // 1 Web pages routing
-$routes->add('login', 'mycontroller::login');
-$routes->add('register', 'mycontroller::register');
-$routes->add('about', 'mycontroller::about');
-$routes->add('books', 'mycontroller::books');
-$routes->add('contact', 'mycontroller::contact');
+$routes->add('login', 'Mycontroller::login');
+$routes->add('register', 'Mycontroller::register');
+$routes->add('about', 'Mycontroller::about');
+$routes->add('books', 'Mycontroller::books');
+$routes->add('contact', 'Mycontroller::contact');
 
 
 // 2 Sign up routing
@@ -85,7 +85,7 @@ $routes->add('/deleteBook/(:num)', 'BookController::deleteBook/$1');
 
 
 
-$routes->add('validation', 'mycontroller::validation');
+//$routes->add('validation', 'mycontroller::validation');
 
 
 

@@ -32,8 +32,8 @@ justify-content: center;
  
 img {
   max-width: 95%;
-  max-height: 280px;
-  min-height: 280px;  
+  max-height: 300px;
+  min-height: 10px;  
   margin: 10px;
 }
 
@@ -86,9 +86,12 @@ img {
 
     
 <body>
-
-            <h2> BOOK LIST</h2>
-            <button class="reg-newbook-btn"><a href="/book-reg-create">Register a new book!</a></button>
+    
+<?php
+$a = "hello";
+?>
+    <h2> BOOK LIST</h2>
+    <button class="reg-newbook-btn"><a href="/book-reg-create">Register a new book!</a></button>
         
 
 <section id="books">
@@ -96,12 +99,12 @@ img {
     
             <div class="row">
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book1.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book1.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> Atomic Habits<br>
+                                <b>Author:</b> James Clear<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                                 
                             </div>
@@ -110,24 +113,24 @@ img {
                 </div>
 
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book2.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book2.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> Verity<br>
+                                <b>Author:</b> Colleen Hoover<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
                             <img src="<?php echo base_url('images/book3.jpg'); ?>" />    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> It ends with us<br>
+                                <b>Author:</b> Colleen Hoover<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
@@ -135,12 +138,12 @@ img {
                 </div>
 
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book4.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book4.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> Ugly love<br>
+                                <b>Author:</b> Colleen Hoover<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
@@ -148,12 +151,12 @@ img {
                 </div>
             <div class="row">
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book5.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book5.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> The Midnight library<br>
+                                <b>Author:</b> Matt Haig<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
@@ -161,12 +164,12 @@ img {
                 </div>
 
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book6.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book6.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> The Ickabog<br>
+                                <b>Author:</b> J.K.Rowling<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
@@ -174,12 +177,12 @@ img {
                 </div>
 
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div>
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book7.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book7.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> Atlas of the heart<br>
+                                <b>Author:</b> Brene Brown<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
@@ -187,17 +190,16 @@ img {
                 </div>
 
                 <div class="column">
-                    <div  style="background-image: url(img/cat1.webp)">
+                    <div >
                         <div class="book-info">
-                            <img src="<?php echo base_url('images/book8.jpg'); ?>" />    
+                            <img src="<?php echo base_url('images/book8.jpg'); ?>" width="200" height="300"/>    
                             <div class="book-details">
-                                <b>Title:</b> Blalala<br>
-                                <b>Author:</b> lolol<br>
+                                <b>Title:</b> The power of regret<br>
+                                <b>Author:</b> Daniel H. Pink<br>
                                 <button class="reserve-btn"><a href="/reserve-book-add">Reserve book</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
            
-    
-     
+    </section>

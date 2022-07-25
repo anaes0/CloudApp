@@ -17,6 +17,7 @@ class ReservationController extends BaseController
     public function create(){
         echo view('templates/header');
         echo view('reserve-book-add');
+        echo view('templates/footer');
 
     }
     public function store(){
