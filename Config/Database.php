@@ -34,9 +34,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'id19316678_librarybooksusername',
-        'password' => 'iO]UM<JO3j|Ns+hI',
-        'database' => 'id19316678_librarybooks',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'book-reg',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -56,9 +56,9 @@ class Database extends Config
     public $usersDataBase  = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'id19316678_libraryusername',
-        'password' => 'p5D-26J=ytqOtV-U',
-        'database' => 'id19316678_libraryusers',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'library',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -78,9 +78,9 @@ class Database extends Config
     public $reservationDataBase  = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'id19316678_librarybooksusername',
-        'password' => 'iO]UM<JO3j|Ns+hI',
-        'database' => 'id19316678_librarybooks',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'book-reserve',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -134,3 +134,4 @@ class Database extends Config
         }
     }
 }
+
